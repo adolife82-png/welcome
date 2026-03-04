@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 # .env dosyasını yükle
 load_dotenv()
 
-# Tokeni .env dosyasından al
+# Tokeninizi .env dosyasından alıyoruz
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-# Hoş geldin mesajı atılacak kanalın ID'si
+# Sunucudan hoş geldin kanalı
 WELCOME_CHANNEL_ID = 1478713946813890730
 
 # Botun gerekli izinleri
